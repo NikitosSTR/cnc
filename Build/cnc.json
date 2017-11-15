@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "cnc.data.unityweb",
+"asmCodeUrl": "cnc.asm.code.unityweb",
+"asmMemoryUrl": "cnc.asm.memory.unityweb",
+"asmFrameworkUrl": "cnc.asm.framework.unityweb",
+"splashScreenStyle": "Light",
+"backgroundColor": "#D8BFAA"
+}

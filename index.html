@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Colors'n'Circles</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>  
+    <title>Colors'n'Circles</title>
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/web.json", {onProgress: UnityProgress});
+        var gameInstance = UnityLoader.instantiate("gameContainer", "Build/cnc.json");
     </script>
-  </head>
-  <body>
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 960px; height: 540px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">Colors'n'Circles</div>
-      </div>
+</head>
+
+<body style="background-color: #F8F4E3">
+    <div style="position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);">
+
+        <div id="gameContainer" style="width: 960px; height: 540px; margin: auto"></div>
+        <!--<div id="gameContainer" style="width: 960px; height: 540px"></div>-->
+        <div style="text-align: left">
+            <br />
+            Control:<br /><br />
+                C — change weapon<br />
+                Space — fire<br />
+                Arrows — move<br />
+        </div>
     </div>
-  </body>
+</body>
+
 </html>
