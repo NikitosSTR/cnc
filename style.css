@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    background-color: #F8F4E3;
+}
+
+#wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#gameContainer {
+    width: 960px;
+    height: 540px;
+    margin: auto;
+}
+
+#footer {
+    height: 31px;
+}
+
